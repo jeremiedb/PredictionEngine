@@ -21,4 +21,5 @@ predict_iris <- function(v1=1, v2=1, v3=1, v4=1) {
   data_pred <- c(v1, v2, v3, v4)
   data_pred <- matrix(c(v1, v2, v3, v4), nrow=1)
   prediction <- predict(object = model_iris, newdata = data_pred)
+  return(prediction)
 }
