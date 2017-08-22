@@ -17,9 +17,9 @@
 
 
 #' @export
-predict_iris <- function(v1=1, v2=1, v3=1, v4=1) {
-  data_pred <- c(v1, v2, v3, v4)
-  data_pred <- matrix(c(v1, v2, v3, v4), nrow=1)
+predict_iris <- function(Sepal.Length = 0, Sepal.Width = 0, Petal.Length = 0, Petal.Width = 0) {
+  data_pred <- c(Sepal.Length, Sepal.Width, Petal.Length, Petal.Width)
+  data_pred <- matrix(data_pred, nrow = 1)
   prediction <- predict(object = model_iris, newdata = data_pred)
   return(prediction)
 }
