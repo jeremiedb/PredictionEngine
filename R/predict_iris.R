@@ -1,5 +1,6 @@
 
-
+#' Iris classification on trained xgboost model
+#'
 #' @export
 predict_iris <- function(Sepal.Length = 0, Sepal.Width = 0, Petal.Length = 0, Petal.Width = 0) {
   data_pred <- c(Sepal.Length, Sepal.Width, Petal.Length, Petal.Width)

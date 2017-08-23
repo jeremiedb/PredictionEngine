@@ -1,4 +1,6 @@
 
+#' Generation of a fake digit image
+#'
 #' @export
 dcgan <- function(digit = 0, samples = 1, ctx = mxnet::mx.cpu()) {
 
