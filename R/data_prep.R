@@ -23,4 +23,4 @@
 # dcgan_model[['arg.params']] <- lapply(G_arg_params, as.array)
 # dcgan_model[['aux.params']] <- lapply(G_aux_params, as.array)
 #
-# devtools::use_data(model_iris, iris_levels, internal = TRUE, overwrite = TRUE)
+# devtools::use_data(model_iris, iris_levels, dcgan_model, internal = TRUE, overwrite = TRUE)
