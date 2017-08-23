@@ -6,7 +6,7 @@ Author: Jeremie Desgagne-Bouchard
 Maintainer: JDB <yourself@somewhere.net>
 Description: Package to serve as a prediction engine with OpenCPU.
     Model deployment with Xgboost and MXNet
-License: Apache 2
+License: Apache2
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1
