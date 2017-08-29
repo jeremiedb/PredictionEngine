@@ -2,7 +2,9 @@
 #' Generation of a fake digit image
 #'
 #' @export
-dcgan <- function(digit = 0, samples = 1, ctx = mxnet::mx.cpu()) {
+dcgan <- function(digit = 0, seed = 1, samples = 1, ctx = mxnet::mx.cpu()) {
+
+  mxnet::mx.set.seed(seed)
 
   digit <- mxnet::mx.nd.array(rep(digit, times = 64))
   data <- mxnet::mx.nd.one.hot(indices = digit, depth = 10)

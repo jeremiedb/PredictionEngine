@@ -4,7 +4,7 @@
 \alias{dcgan}
 \title{Generation of a fake digit image}
 \usage{
-dcgan(digit = 0, samples = 1, ctx = mxnet::mx.cpu())
+dcgan(digit = 0, seed = 1, samples = 1, ctx = mxnet::mx.cpu())
 }
 \description{
 Generation of a fake digit image
