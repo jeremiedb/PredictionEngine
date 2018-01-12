@@ -8,5 +8,5 @@ Description: Package to serve as a prediction engine with OpenCPU.
     Model deployment with Xgboost and MXNet. 
 License: Apache2
 Encoding: UTF-8
-LazyData: true
+LazyData: false
 RoxygenNote: 6.0.1
