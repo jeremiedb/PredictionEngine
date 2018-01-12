@@ -1,12 +1,17 @@
 Package: PredictionEngine
 Type: Package
 Title: Demo OpenCPU prediction capabilities
-Version: 0.1.0
+Version: 0.1.1
 Author: Jeremie Desgagne-Bouchard
-Maintainer: JDB <yourself@somewhere.net>
+Maintainer: JDB <nimus44@gmail.com>
 Description: Package to serve as a prediction engine with OpenCPU.
     Model deployment with Xgboost and MXNet. 
 License: Apache2
 Encoding: UTF-8
 LazyData: false
 RoxygenNote: 6.0.1
+Imports: 
+  ggplot2 (>= 2.2.0),
+  imager,
+  xgboost (>= 0.4),
+  mxnet (>= 0.11.0)
